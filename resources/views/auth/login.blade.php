@@ -17,17 +17,17 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bg-col">
     <form id="login-form" action="{{ route('login') }}" method="post">
 
-        <section class="vh-100">
+        <section class="vh-100 ">
             <div class="h-100">
-                <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="row d-flex justify-content-center align-items-center ">
                     <div class="col-md-10 col-lg-6 col-xl-5">
                         <img src="Pictures/register.jpeg" class="img-fluid" alt="Sample image">
                     </div>
 
-                    <div class="col-md-9 col-lg-6 col-xl-4 offset-xl-1">
+                    <div class="col-md-9 col-lg-6 col-xl-4 offset-xl-1 color-login">
 
                         <h1>Welcome to Chord Corner</h1><br><br>
 
@@ -35,9 +35,9 @@
 
                         <div class="form-row">
                 <div class="col-md-12 mb-0">
-                    <label for="validationCustom03"><b>Email</b></label>
-                    <input type="text" class="form-control @error('email') is-invalid @enderror" id="validationCustom03"
-                        name="email" placeholder="Enter Email Address" value="{{ old('email') }}">
+                    <label for="validationCustom03" class="color-login"><b>Email</b></label>
+                    <input type="text" class="form-control @error('email') is-invalid @enderror"
+                        name="email" placeholder="Enter Email Address" value="{{ old('email') }}" autocapitalize="none">
                     @error('email')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
@@ -48,7 +48,7 @@
 
             <div class="form-row">
                 <div class="col-md-12 mb-0">
-                    <label for="validationCustom04"><b>Password</b></label>
+                    <label for="validationCustom04" class="color-login"><b>Password</b></label>
                     <input type="password" class="form-control @error('password') is-invalid @enderror"
                         id="validationCustom04" name="password" placeholder="Enter Password">
                     @error('password')
@@ -61,7 +61,7 @@
 
                         <div class="row d-flex align-items-center mt-0">
                             <div class="col-md-5 ">
-                                <div class="form-check d-flex align-items-center">
+                                <div class="form-check d-flex align-items-center color-login" >
                                     <input class="form-check-input my-0 me-2" type="checkbox" name="remember"
                                         id="remember" {{ old('remember') ? 'checked' : '' }}>
                                     <label class="form-check-label" for="remember">
@@ -80,12 +80,12 @@
 
 
                         <div class="text-center text-lg-start mt-4 pt-2">
-                            <div class="form-group text-center">
+                            <div class="form-group text-center color-login ">
                                 <button id="size" class="btn btn-primary" type="submit"><b>
                                         {{ __('Login') }}</b></button>
                             </div><br>
 
-                            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a class="nav-reg"
+                            <p class="small mt-2 pt-1 mb-0 color-login">Don't have an account? <a class="nav-reg"
                                     href="{{ route('register') }}">{{ __('Register') }}</a></p>
                         </div>
                         <!-- </form> -->

@@ -476,7 +476,7 @@ form input {
   width: 100%;
   font-size: 14px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   line-height: normal;
 }
 
@@ -657,10 +657,35 @@ fill: #ffffff;
 
   }
 
+  .text-right{
+    margin-left:35px;
+  }
+
 .form-row{
     margin-top:5px;
 }
 
-.comtainer-1{
-  height:600px;
+.bg-col{
+  background-color: #1b1b1b;
+}
+
+.color-login-1{
+  color: white;
+  text-align: left;
+}
+
+.color-login{
+  color: white;
+
+}
+
+.height-cont{
+  margin-top: 15%;
+  height:30%;
+
+}
+
+.col-form-label {
+  text-align: left;
+  /* align-items: left; */
 }

@@ -19,7 +19,7 @@
 <body>
     <nav id="nav-color" class="navbar navbar-expand-lg navbar-dark ">
         <div class="container-fluid">
-            <img src="Pictures/favicon.ico" class="icon" alt="Chord Corner Logo" width="60" height="60">
+        <img src="Pictures/favicon.png" class="icon" alt="Chord Corner Logo" width="55" height="55">
             <a class="navbar-brand" href="#">Chord Corner</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
