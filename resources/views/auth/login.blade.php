@@ -34,34 +34,35 @@
                         @csrf
 
                         <div class="form-row">
-                <div class="col-md-12 mb-0">
-                    <label for="validationCustom03" class="color-login"><b>Email</b></label>
-                    <input type="text" class="form-control @error('email') is-invalid @enderror"
-                        name="email" placeholder="Enter Email Address" value="{{ old('email') }}" autocapitalize="none">
-                    @error('email')
-                    <span class="invalid-feedback" role="alert">
-                        <strong>{{ $message }}</strong>
-                    </span>
-                    @enderror
-                </div>
-            </div>
+                            <div class="col-md-12 mb-0">
+                                <label for="validationCustom03" class="color-login"><b>Email</b></label>
+                                <input type="text" class="form-control @error('email') is-invalid @enderror"
+                                    name="email" placeholder="Enter Email Address" value="{{ old('email') }}"
+                                    autocapitalize="none">
+                                @error('email')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                                @enderror
+                            </div>
+                        </div>
 
-            <div class="form-row">
-                <div class="col-md-12 mb-0">
-                    <label for="validationCustom04" class="color-login"><b>Password</b></label>
-                    <input type="password" class="form-control @error('password') is-invalid @enderror"
-                        id="validationCustom04" name="password" placeholder="Enter Password">
-                    @error('password')
-                    <span class="invalid-feedback" role="alert">
-                        <strong>{{ $message }}</strong>
-                    </span>
-                    @enderror
-                </div>
-            </div>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-0">
+                                <label for="validationCustom04" class="color-login"><b>Password</b></label>
+                                <input type="password" class="form-control @error('password') is-invalid @enderror"
+                                    id="validationCustom04" name="password" placeholder="Enter Password">
+                                @error('password')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                                @enderror
+                            </div>
+                        </div>
 
                         <div class="row d-flex align-items-center mt-0">
                             <div class="col-md-5 ">
-                                <div class="form-check d-flex align-items-center color-login" >
+                                <div class="form-check d-flex align-items-center color-login">
                                     <input class="form-check-input my-0 me-2" type="checkbox" name="remember"
                                         id="remember" {{ old('remember') ? 'checked' : '' }}>
                                     <label class="form-check-label" for="remember">
@@ -88,17 +89,7 @@
                             <p class="small mt-2 pt-1 mb-0 color-login">Don't have an account? <a class="nav-reg"
                                     href="{{ route('register') }}">{{ __('Register') }}</a></p>
                         </div>
-                        <!-- </form> -->
-                        <!-- </div>
-                </div>
-            </div>
-            </div>
-            </div> -->
 
-                        <!-- </form> -->
-                        <!-- </div>
-    </div>
-    </div> -->
         </section>
 
         <script href="{{ asset('login.js') }}"></script>

@@ -35,8 +35,10 @@
 
                             <div class="col-md-10 mb-1  p-0">
                                 <label for="name" class="col-form-label   color-login-1">{{ __('Name') }}</label>
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror text-left"
-                                    name="name" value="{{ old('name') }}" required autocomplete="name" autofocus  placeholder="Enter Name">
+                                <input id="name" type="text"
+                                    class="form-control @error('name') is-invalid @enderror text-left" name="name"
+                                    value="{{ old('name') }}" required autocomplete="name" autofocus
+                                    placeholder="Enter Name">
                                 @error('name')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -49,8 +51,9 @@
                                     <label for="phone_no"
                                         class="col-form-label   color-login-1">{{ __('Mobile Number') }}</label>
                                     <input id="phone_no" type="phone_no"
-                                        class="form-control @error('phone_no') is-invalid @enderror text-left" name="phone_no"
-                                        value="{{ old('phone_no') }}" required autocomplete="phone_no" placeholder="Enter Mobile Number">
+                                        class="form-control @error('phone_no') is-invalid @enderror text-left"
+                                        name="phone_no" value="{{ old('phone_no') }}" required autocomplete="phone_no"
+                                        placeholder="Enter Mobile Number">
                                     @error('phone_no')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -59,10 +62,12 @@
                                 </div>
 
                                 <div class="col-md-5.5 m-2 p-0">
-                                    <label for="address" class="col-form-label color-login-1">{{ __('Address') }}</label>
+                                    <label for="address"
+                                        class="col-form-label color-login-1">{{ __('Address') }}</label>
                                     <input id="address" type="address"
-                                        class="form-control @error('address') is-invalid @enderror text-left" name="address"
-                                        value="{{ old('address') }}" required autocomplete="address"  placeholder="Enter Address">
+                                        class="form-control @error('address') is-invalid @enderror text-left"
+                                        name="address" value="{{ old('address') }}" required autocomplete="address"
+                                        placeholder="Enter Address">
                                     @error('address')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -74,8 +79,9 @@
                             <div class="col-md-10 mb-1 p-0">
                                 <label for="email"
                                     class="col-form-label   color-login-1">{{ __('Email Address') }}</label>
-                                    <input id="email" type="text" class="form-control @error('email') is-invalid @enderror" name="email" 
-                                    value="{{ old('email') }}" required autocomplete="email" autocapitalize="none"  placeholder="Enter Email Address">
+                                <input id="email" type="text" class="form-control @error('email') is-invalid @enderror"
+                                    name="email" value="{{ old('email') }}" required autocomplete="email"
+                                    autocapitalize="none" placeholder="Enter Email Address">
 
                                 @error('email')
                                 <span class="invalid-feedback" role="alert">
@@ -86,10 +92,12 @@
 
                             <div class="form-row">
                                 <div class="col-md-5.5 m-2 p-0">
-                                    <label for="password" class="col-form-label  color-login-1">{{ __('Password') }}</label>
+                                    <label for="password"
+                                        class="col-form-label  color-login-1">{{ __('Password') }}</label>
                                     <input id="password" type="password"
-                                        class="form-control @error('password') is-invalid @enderror text-left" name="password"
-                                        required autocomplete="new-password"  placeholder="Enter Password">
+                                        class="form-control @error('password') is-invalid @enderror text-left"
+                                        name="password" required autocomplete="new-password"
+                                        placeholder="Enter Password">
                                     @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -101,7 +109,8 @@
                                     <label for="password-confirm"
                                         class="col-form-label  color-login-1">{{ __('Confirm Password') }}</label>
                                     <input id="password-confirm" type="password" class="form-control text-left"
-                                        name="password_confirmation" required autocomplete="new-password"  placeholder="Re-Enter Password">
+                                        name="password_confirmation" required autocomplete="new-password"
+                                        placeholder="Re-Enter Password">
                                 </div>
                             </div>
 
@@ -128,9 +137,9 @@
     </form>
 
     <script href="{{ asset('login.js') }})"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 
 </body>
 
