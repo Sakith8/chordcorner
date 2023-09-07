@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="Pictures/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Pictures/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Pictures/favicon-16x16.png">
+  <link rel="manifest" href="Pictures/favicon.ico">
+  <title>Chord Corner</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <form id="login-form" action="{{ route('login.submit') }}" method="post">
+  <section class="vh-100">
+      <div class="container-fluid h-custom">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+              <div class="col-md-9 col-lg-6 col-xl-5">
+                  <img src="Pictures/register.jpeg" class="img-fluid" alt="Sample image">
+              </div>
+
+              <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                  <form>
+                      <h1>Welcome to Chord Corner</h1><br><br>
+
+                      <!-- Email input -->
+                      <div class="form-row">
+                          <div class="col-md-12 mb-3">
+                              <label for="validationCustom03"><b>Email</b></label>
+                              <input type="text" class="form-control" id="validationCustom03"
+                                  placeholder="Enter Email Address" required>
+                              <div class="invalid-feedback">
+                                  Enter a valid Email Address.
+                              </div>
+                          </div>
+                      </div>
+
+                      <!-- Password input -->
+                      <div class="form-row">
+                          <div class="col-md-12 mb-3">
+                              <label for="validationCustom04"><b>Password</b></label>
+                              <input type="password" class="form-control" id="validationCustom04"
+                                  placeholder="Enter Password" required>
+                          </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between align-items-center">
+                          <!-- Checkbox -->
+                          <div class="form-check mb-1">
+                              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3">
+                              <label class="form-check-label" for="form2Example3">
+                                  Remember me
+                              </label>
+                          </div>
+                          <a href="#!" class="text-body"><b>Forgot password?</b></a>
+                      </div>
+
+                      <div class="text-center text-lg-start mt-4 pt-2">
+                          <div class="form-group text-center">
+                              <button id="size" class="btn btn-primary" type="submit"><b><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></b></button>
+                          </div><br>
+
+                          <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></a></p>
+                      </div>
+
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <script src="login.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</form>
+
+</body>
+
+</html>
