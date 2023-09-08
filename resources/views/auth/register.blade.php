@@ -47,7 +47,7 @@
                             </div>
 
                             <div class="form-row">
-                                <div class="col-md-5.5 m-2 mb-1 p-0">
+                                <div class="col-md-5 m-1  p-0">
                                     <label for="phone_no"
                                         class="col-form-label   color-login-1">{{ __('Mobile Number') }}</label>
                                     <input id="phone_no" type="phone_no"
@@ -61,7 +61,7 @@
                                     @enderror
                                 </div>
 
-                                <div class="col-md-5.5 m-2 p-0">
+                                <div class="col-md-5 m-1 p-0">
                                     <label for="address"
                                         class="col-form-label color-login-1">{{ __('Address') }}</label>
                                     <input id="address" type="address"
@@ -91,7 +91,7 @@
                             </div>
 
                             <div class="form-row">
-                                <div class="col-md-5.5 m-2 p-0">
+                                <div class="col-md-5 m-1 p-0">
                                     <label for="password"
                                         class="col-form-label  color-login-1">{{ __('Password') }}</label>
                                     <input id="password" type="password"
@@ -105,7 +105,7 @@
                                     @enderror
                                 </div>
 
-                                <div class="col-md-5.5  m-2 p-0 ">
+                                <div class="col-md-5  m-1 p-0 ">
                                     <label for="password-confirm"
                                         class="col-form-label  color-login-1">{{ __('Confirm Password') }}</label>
                                     <input id="password-confirm" type="password" class="form-control text-left"

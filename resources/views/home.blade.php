@@ -172,7 +172,7 @@
             <div class="container">
                 <div class="box">
                     <div class="arrival_bg_box">
-                        <img src="Pictures/arrival.jpeg" alt="">
+                        <img src="Pictures/guitar-arrival.jpg" alt="picture-arrival">
                     </div>
                     <div class="row">
                         <div class="col-md-6 ml-auto">
