@@ -146,8 +146,8 @@ table {
 .arrival_section a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #db7531;
-  border: 1px solid #db7531;
+  background-color: #d36d2a;
+  border: 1px solid #d36d2a;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -156,7 +156,7 @@ table {
 
 .arrival_section a:hover {
   background-color: transparent;
-  color: #db7531;
+  color: #d36d2a;
 }
 
 .product_section .heading_container {
@@ -293,12 +293,12 @@ table {
 }
 
 .product_section .options .option1 {
-  background-color: #db7531;
+  background-color: #d36d2a;
   color: #000000;
 }
 
 .product_section .options .option1:hover {
-  background-color: #cf7f4a;
+  background-color: #d36d2a;
   color: #ffffff;
   text-decoration: none;
 }
@@ -332,8 +332,8 @@ table {
 .product_section .btn-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #db7531;
-  border: 1px solid #db7531;
+  background-color: #d36d2a;
+  border: 1px solid #d36d2a;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -368,7 +368,7 @@ table {
 
 .para2:hover {
   color: #000000;
-  background-color: #d27e46;
+  background-color: #cf7f4a;
 
 }
 
@@ -528,7 +528,7 @@ form input[type="submit"]:focus {
 .why_section .box1 {
   text-align: center;
   margin-top: 45px;
-  background-color: #d27e46;
+  background-color: #d36d2a;
   padding: 45px 50px;
   border-radius: 5px;
   color: #ffffff;
@@ -564,7 +564,7 @@ form input[type="submit"]:focus {
 }
 
 .home-name {
-  color: #d27e46;
+  color: #d36d2a;
   display: inline-block;
   padding: 5px 51px;
   border: 1px solid #ccc;
@@ -612,7 +612,7 @@ form input[type="submit"]:focus {
 /* Style for dropdown links */
 .dropdown-content a {
   text-decoration: none;
-  color: #d27e46;
+  color: #d36d2a;
 }
 
 /* Style for dropdown links on hover */
@@ -628,7 +628,7 @@ form input[type="submit"]:focus {
 }
 
 #home-name1 {
-  color: #d27e46;
+  color: #d36d2a;
   display: inline-block;
   text-decoration: none;
   padding: 5px 30px;
