@@ -31,14 +31,14 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link" href="{{ route('shop') }}">Shop</a>
+                    </li><li class="nav-item">
+                        <a class="nav-link" href="">Cart</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Service</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cart</a>
-                    </li>
+                    
                 </ul>
 
                 <body class="antialiased">
@@ -394,7 +394,8 @@
                                             <li><a href="#">Home</a></li>
                                             <li><a href="#">About</a></li>
                                             <li><a href="#">Services</a></li>
-                                            <li><a href="#">Contact</a></li>
+                                            <li><a href="#">Shop</a></li>
+                                         
                                         </ul>
                                     </div>
                                 </div><br>

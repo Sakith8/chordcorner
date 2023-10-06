@@ -161,12 +161,36 @@ table {
 
 .product_section .heading_container {
   margin-bottom: 20px;
+  color: #000000;
 }
 
 .topic {
   color: #ffffff;
   text-align: center;
   padding: 20px;
+}
+
+
+.topic4 {
+
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  background-color: #d36d2a;
+}
+
+.topic5{
+font-size: 30px;
+color: #ccc;
+}
+
+.topic6 {
+
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  margin:0%;
+  background-color: #d36d2a;
 }
 
 .product_section .box {
@@ -599,7 +623,7 @@ form input[type="submit"]:focus {
   background-color: #000000;
   min-height: 1px;
   min-width: 150px;
-  padding: 8px;
+  padding: 10px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   border: #ffffff;
   z-index: 1;
@@ -695,4 +719,103 @@ form input[type="submit"]:focus {
 .col-form-label {
   text-align: left;
   /* align-items: left; */
+}
+
+/*SHOP*/
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 30%;
+  box-sizing: border-box;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+#topic4{
+
+color: #000;
+font-size: large;
+background-color: #db7531;
+
+}
+
+
+/* icon */
+
+.icon-loupe:before {
+  content: "\e932";
+}
+.icon-mail:before {
+  content: "\e933";
+}
+.icon-smartphone:before {
+  content: "\e955";
+}
+
+.icon-placeholder:before {
+  content: "\e945";
+}
+
+.bg-color1{
+  background-color: #1b1b1b;
+height: 1000px;
+
+}
+
+#white{
+  color: white;
+}
+
+#white1{
+  color: white;
+  margin-left: 40px;
+}
+
+.centered-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.instru-cont{
+  margin-left: 130px;
+  margin-top: 50px;
+}
+
+.btn-align{
+align-items: center;
+
+}
+.bg-color3{
+  background-color: #333;
+  height: fit-content;
+}
+
+#margin{
+  margin-left: 350px;
+}
+
+.btn-box2{
+  text-decoration: none;
+ 
+
+}
+
+
+.align {
+  display: flex; /* Use flexbox to horizontally align buttons */
+  justify-content: space-between; /* Space between buttons */
+  align-items: center; /* Center vertically */
 }

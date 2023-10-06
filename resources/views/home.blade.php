@@ -26,26 +26,27 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link" href="{{ route('shop') }}">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Service</a>
+                    <a class="nav-link" href="{{ route('cart') }}">Cart</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cart</a>
+                    <a class="nav-link " href="{{ route('service') }}">Service</a>
                     </li>
                 </ul>
 
 
                 <div class="user-dropdown">
                     <div class="home-name">
-                        <span class="font-semibold text-gray-600">{{ auth()->user()->name }}</span>
+                        <span class="font-semibold text-gray-600 ">{{ auth()->user()->name }}</span>
                     </div>
                     <div class="dropdown-content">
+                    <a href="{{ route('profile') }}">My Profile</a><br><br>
                         <a href="{{ route('logout') }}"
                             onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
                     </div>
@@ -65,7 +66,7 @@
             <div class="home-quote">
                 <i>“Where words fail, music speaks.” <br>— Hans Christian Andersen</i>
             </div>
-            <a href="#" class="shop-button">Shop Now</a>
+            <a href="{{ route('shop') }}" class="shop-button">Shop Now</a>
         </div><br>
 
         <section class="why_section layout_padding">
@@ -387,7 +388,8 @@
                                             <li><a href="#">Home</a></li>
                                             <li><a href="#">About</a></li>
                                             <li><a href="#">Services</a></li>
-                                            <li><a href="#">Contact</a></li>
+                                            <li><a href="{{ route('shop') }}">Shop</a></li>
+                                            <li><a href="{{ route('contact')}}">Contact</a></li>
                                         </ul>
                                     </div>
                                 </div><br>
