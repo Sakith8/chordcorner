@@ -46,6 +46,19 @@
                                 @enderror
                             </div>
 
+{{--                            <div class="col-md-10 mb-1  p-0">--}}
+{{--                                <label for="usertype" class="col-form-label   color-login-1">{{ __('usertype') }}</label>--}}
+{{--                                <input id="usertype" type="text"--}}
+{{--                                       class="form-control @error('usertype') is-invalid @enderror text-left" name="usertype"--}}
+{{--                                       value="{{ old('usertype') }}" required autocomplete="usertype" autofocus--}}
+{{--                                       placeholder="Enter usertype">--}}
+{{--                                @error('usertype')--}}
+{{--                                <span class="invalid-feedback" role="alert">--}}
+{{--                                    <strong>{{ $message }}</strong>--}}
+{{--                                </span>--}}
+{{--                                @enderror--}}
+{{--                            </div>--}}
+
                             <div class="form-row">
                                 <div class="col-md-5 m-1  p-0">
                                     <label for="phone_no"
